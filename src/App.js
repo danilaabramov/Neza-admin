@@ -17,7 +17,6 @@ import { fetchAuthMe, selectIsAuth } from "./redux/slices/auth";
 
 import { Context } from "./pages/Chat/functions/context";
 
-import AuthPage from "./pages/Chat/AuthPage";
 import ChatsPage from "./pages/Chat/ChatsPage";
 
 function App() {

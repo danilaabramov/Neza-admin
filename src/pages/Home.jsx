@@ -53,6 +53,7 @@ export const Home = () => {
       window.localStorage.setItem("clickCount", "1");
       setClickCount(1);
     }
+
     dispatch(fetchComments());
 
     dispatch(fetchTags());

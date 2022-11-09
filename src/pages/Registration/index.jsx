@@ -63,9 +63,9 @@ export const Registration = () => {
         <TextField
           error={Boolean(errors.email?.message)}
           helperText={errors.email?.message}
-          {...register("email", { required: "Укажите почту" })}
+          {...register("email", { required: "Укажите номер телефона" })}
           className={styles.field}
-          label="E-Mail"
+          label="Номер телефона"
           fullWidth
         />
         <TextField

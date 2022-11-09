@@ -193,17 +193,17 @@ export const Post = ({
               <h2 className={styles.title2Full}>{title2}</h2>
             </div>
 
-            {/*{tags.length !== 0 && (*/}
-            {/*  <ul className={styles.tags}>*/}
-            {/*    {tags.map((name) => (*/}
-            {/*      <li key={name}>*/}
-            {/*        <Link to={`/tags/${name}`}>*/}
-            {/*          <div className={styles.title2Full}>#{name}</div>*/}
-            {/*        </Link>*/}
-            {/*      </li>*/}
-            {/*    ))}*/}
-            {/*  </ul>*/}
-            {/*)}*/}
+            {tags.length !== 0 && (
+              <ul className={styles.tags}>
+                {tags.map((name) => (
+                  <li key={name}>
+                    <Link to={`/tags/${name}`}>
+                      <div className={styles.title2Full}>#{name}</div>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            )}
           </div>
         )}
 

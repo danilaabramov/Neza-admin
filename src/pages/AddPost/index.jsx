@@ -220,14 +220,14 @@ export const AddPost = () => {
           onChange={(e) => setTitle2(e.target.value)}
           fullWidth
         />
-        {/*<TextField*/}
-        {/*  value={tags}*/}
-        {/*  onChange={(e) => setTags(e.target.value)}*/}
-        {/*  classes={{ root: styles.tags }}*/}
-        {/*  variant="standard"*/}
-        {/*  placeholder="Тэги"*/}
-        {/*  fullWidth*/}
-        {/*/>*/}
+        <TextField
+          value={tags}
+          onChange={(e) => setTags(e.target.value)}
+          classes={{ root: styles.tags }}
+          variant="standard"
+          placeholder="Тэги"
+          fullWidth
+        />
         <SimpleMDE
           className={styles.editor}
           value={text}
